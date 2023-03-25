@@ -218,6 +218,7 @@ body {
     margin: 0;
     gap: 2rem;
     --underline-gap: 0.5rem;
+    z-index: 999999;
     transform: translateX(100%);
   }
   .primary-nav[data-expanded='true'] > .nav__list {
@@ -411,7 +412,7 @@ body {
   }
 }
 .about-hero {
-  min-width: 28rem;
+  min-width: calc(100% - 2rem);
   max-width: 33rem;
   height: 40rem;
   background-image: url(./imgs/chris-liveraniunsplash.jpg);
