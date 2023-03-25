@@ -230,6 +230,7 @@ body {
 .nav__list span[aria-hidden='true'] {
   margin-inline-end: 0.35rem;
   font-weight: var(--fw-bold);
+  pointer-events: none;
 }
 
 .underline-indicators > * {
